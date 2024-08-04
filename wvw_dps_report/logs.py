@@ -20,7 +20,7 @@ def find_files(directory, extension, after_time):
     return found_files
 
 # Paths for parsers and output
-logpath = os.path.join(os.path.expanduser('~'), 'Documents', 'Guild Wars 2', 'addons', 'arcdps', 'arcdps.cbtlogs')
+logpath = os.path.join(os.path.expanduser('~'), 'Documents', 'Guild Wars 2', 'addons', 'arcdps', 'arcdps.cbtlogs', 'WvW (1)')
 parserpath = os.path.join('C:\\', 'wvw_dps_report', 'parser', 'GuildWars2EliteInsights.exe')
 configpath = os.path.join('C:\\', 'wvw_dps_report', 'config.conf')
 outputpath = os.path.join('C:\\', 'wvw_dps_report', 'logs_output')
