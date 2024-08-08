@@ -63,7 +63,7 @@ def check_and_update_version(repo_info, config, version_section, extract_to):
             zip_file = download_archive(download_url, f"GW2EI-{latest_version}.zip")
             extract_files(zip_file, extract_to)
 
-        elif repo in ["arcdps_top_stats_parser", "arc_dps_top_stats_helper"]:
+        elif repo in ["arcdps_top_stats_parser", "fear-wvw-helper"]:
             download_url = f"https://github.com/{user}/{repo}/archive/refs/tags/{latest_version}.zip"
             zip_file = download_archive(download_url, f"{repo}-{latest_version}.zip")
             specific_subfolder = repo if repo == "arcdps_top_stats_parser" else "wvw_dps_report"
